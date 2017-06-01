@@ -61,6 +61,16 @@ echo
 cloneOrPull https://github.com/qt/qtmultimedia.git ${RPIDEV_SRC}/qtmultimedia 5.9
 
 echo
-echo == Download piomxtextures ==
+echo == Download qtwebchannel ==
 echo
-cloneOrPull https://github.com/carlonluca/pot.git ${RPIDEV_SRC}/piomxtextures master
+cloneOrPull https://github.com/qt/qtwebchannel.git ${RPIDEV_SRC}/qtwebchannel 5.9
+
+echo
+echo == Download qtwebsockets ==
+echo
+cloneOrPull https://github.com/qt/qtwebsockets.git ${RPIDEV_SRC}/qtwebsockets 5.9
+
+echo
+echo == Download qtengine ==
+echo
+cloneOrPull https://github.com/qt/qtwebengine.git ${RPIDEV_SRC}/qtwebengine 5.9
